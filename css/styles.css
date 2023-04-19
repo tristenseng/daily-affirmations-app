@@ -4,8 +4,9 @@
     --gray-blue: hsl(217, 19%, 38%);
     --dark-gray-blue: hsl(217, 19%, 24%);
     --dark-blue: hsl(218, 23%, 16%);
-    font-size: 10px;
+    font-size: 28px;
 }
+
 @font-face {
     font-family: Manrope;
     src: url(https://fonts.google.com/specimen/Manrope);
@@ -15,8 +16,16 @@ body {
     background-color: var(--dark-gray-blue);
 }
 
+.container {
+    text-align: center;
+    border: 1px solid black;
+}
+
 .wrapper {
-    
+    border: 1px solid white;
+    background-color: var(--gray-blue);
+    margin: 40vh 0;
+    border-radius: 7px;
 }
 
 .main-box {
