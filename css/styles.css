@@ -11,6 +11,18 @@
     src: url(https://fonts.google.com/specimen/Manrope);
 }
 
+body {
+    background-color: var(--dark-gray-blue);
+}
+
+.wrapper {
+    
+}
+
+.main-box {
+
+}
+
 @media screen and (min-width: 1440px) {
     
 }
