@@ -19,6 +19,7 @@ body {
 .container {
     text-align: center;
     border: 1px solid black;
+    margin: 0 5px;
 }
 
 .wrapper {
@@ -28,7 +29,22 @@ body {
     border-radius: 7px;
 }
 
-.main-box {
+.advice-id {
+    color: var(--primary-green);
+}
+
+.advice-box {
+    color: white;
+}
+
+.dash {
+    border-bottom: 1px solid var(--primary-cyan);
+}
+
+.main-button {
+    padding: 15px;
+    background-color: var(--primary-green);
+    border-radius: 50px;
 
 }
 
