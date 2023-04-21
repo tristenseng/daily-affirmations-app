@@ -25,6 +25,7 @@ body {
     background-color: var(--gray-blue);
     margin: 40vh 0;
     border-radius: 7px;
+    position: relative;
 }
 
 .advice-id {
@@ -40,26 +41,36 @@ body {
 }
 
 .divider-box {
-    display: inline;
-}
-
-.quotation-icon {
     
 }
 
-.quotation-icon::before, .quotation-icon::after {
+.quotation-icon {
+    display: inline;
+    font-size: 60px;
+    padding: 10px;
+    color: var(--primary-cyan);
+}
 
+.quotation-icon::before, .quotation-icon::after {
+    position: relative;
+    bottom: 30px;
     content: " ";
     height: 10px;
     width: 40%;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     background-color: transparent;
     border-bottom: 1px solid var(--primary-cyan);
     padding: 10px 0;
 }
 
+
+.main-button::before {
+    content: " ";
+}
 .main-button {
+    position: absolute;
+    left: 40%;
     padding: 15px;
     background-color: var(--primary-green);
     border-radius: 50px;
