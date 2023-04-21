@@ -41,7 +41,15 @@ body {
 
 .divider-box {
     display: flex;
-    visibility: hidden; /**fix**/
+}
+
+.quotation-icon::before, .quotation-icon::after {
+    content: " ";
+    height: 10px;
+    width: 100px;
+    background-color: transparent;
+    border-bottom: 1px solid var(--primary-cyan);
+    padding: 10px 0;
 }
 
 .main-button {
