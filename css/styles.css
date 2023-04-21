@@ -39,6 +39,12 @@ body {
 
 .dash {
     border-bottom: 1px solid var(--primary-cyan);
+
+}
+
+.styling {
+    display: flex;
+
 }
 
 .main-button {
