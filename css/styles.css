@@ -18,12 +18,10 @@ body {
 
 .container {
     text-align: center;
-    border: 1px solid black;
     margin: 0 5px;
 }
 
 .wrapper {
-    border: 1px solid white;
     background-color: var(--gray-blue);
     margin: 40vh 0;
     border-radius: 7px;
@@ -31,20 +29,19 @@ body {
 
 .advice-id {
     color: var(--primary-green);
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 30px;
 }
 
 .advice-box {
     color: white;
+    padding: 0 15%; 
 }
 
-.dash {
-    border-bottom: 1px solid var(--primary-cyan);
-
-}
-
-.styling {
+.divider-box {
     display: flex;
-
+    visibility: hidden; /**fix**/
 }
 
 .main-button {
