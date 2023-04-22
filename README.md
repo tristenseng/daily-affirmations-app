@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app
+# Daily Affirmations
 
 
 ## The challenge
