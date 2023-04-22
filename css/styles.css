@@ -8,12 +8,12 @@
 }
 
 @font-face {
-    font-family: Manrope;
-    src: url(https://fonts.google.com/specimen/Manrope);
+    font-family: 'Manrope';
 }
 
 body {
     background-color: var(--dark-gray-blue);
+    font-family: 'Manrope', 'Times New Roman';
 }
 
 .container {
@@ -43,6 +43,7 @@ body {
 
 .divider-box {
     height: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .quotation-icon {
