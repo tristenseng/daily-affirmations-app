@@ -12,7 +12,7 @@ Users should be able to:
 
 ## Screenshot
 
-![alt text](https://github.com/tristenseng/daily-affirmations-app/tree/master/app-screenshot.PNG?raw=true)
+![alt text](https://github.com/tristenseng/daily-affirmations-app/blob/master/images/app-screenshot.PNG)
 
 
 ## Built with
