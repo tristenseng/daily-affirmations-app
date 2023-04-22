@@ -1,7 +1,6 @@
 # Daily Affirmations
 
 
-## The challenge
 
 Users should be able to:
 
